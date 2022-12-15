@@ -219,4 +219,7 @@ img{
     .info{
         grid-template-columns: repeat(1, 1fr);
     }
+    .about, .download{
+        flex-direction: row;
+    }
 }
