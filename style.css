@@ -213,6 +213,9 @@ img{
     .info{
         grid-template-columns: repeat(2, 1fr);
     }
+    .about, .download{
+        flex-direction: row;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -220,6 +223,6 @@ img{
         grid-template-columns: repeat(1, 1fr);
     }
     .about, .download{
-        flex-direction: row;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
